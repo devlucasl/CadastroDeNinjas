@@ -1,9 +1,9 @@
-package dev.java10x.CadastroDeNinjas;
+package dev.java10x.CadastroDeNinjas.Ninjas;
 
+import dev.java10x.CadastroDeNinjas.missoes.MissoesModel;
 import jakarta.persistence.*;
-import org.hibernate.id.IncrementGenerator;
 
-//JPÁ = Java Persistence API
+//JPA = Java Persistence API
 //Entity transforma uma classe em entidade do DB
 @Entity
 @Table(name = "tb_cadastro")
@@ -11,10 +11,19 @@ public class NinjaModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Long id;
-    String nome;
-    String email;
-    int idade;
+    private Long id;
+
+    private String nome;
+
+    private String email;
+
+    private int idade;
+
+    // @ManyToOne - Um ninja so podera ter uma missão
+    @ManyToOne
+    @JoinColumn(name = "missoes_id") //Foreign Key ou Chave estrangeira
+    private MissoesModel missoes;
+
 
     public NinjaModel() {
 

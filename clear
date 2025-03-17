@@ -1,0 +1,17 @@
+[33mcommit af70b0357bb2eea64ae5a2ac093cc10e4a070cb0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mbranchtest[m[33m, [m[1;31morigin/branchtest[m[33m)[m
+Author: Lucas Gabriel <lucasgcsousa2005@gmail.com>
+Date:   Fri Mar 14 17:41:42 2025 -0300
+
+    Cria uma entidade no banco de dados apartir da classe NinjaModel
+
+[33mcommit bbbafecd4c538ba2f5304303913edb3b79acc453[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: Lucas Gabriel <lucasgcsousa2005@gmail.com>
+Date:   Fri Mar 14 17:03:14 2025 -0300
+
+    Criado a controller
+
+[33mcommit dcdeb65e87e209ef8ba5a966adc243beaa27cffb[m
+Author: Lucas Gabriel <lucasgcsousa2005@gmail.com>
+Date:   Fri Mar 14 15:40:58 2025 -0300
+
+    first commit
